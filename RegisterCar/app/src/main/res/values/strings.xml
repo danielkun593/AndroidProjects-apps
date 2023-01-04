@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RegisterCar</string>
+
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="cilindraje">Cilindraje(cc)</string>
+    <string name="manejo">Manejo</string>
+    <string name="color">Color</string>
+
+    <string name="año">Año</string>
+    <string name="placa">Placa</string>
+    <string name="matricula">Matricula</string>
+    <string name="importacion">Pais de importacion</string>
+    <string name="precio">Precio ($)</string>
+</resources>
