@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+
+    <ImageView
+        android:id="@+id/id_imagenusuario"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_image_24"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/id_nombreusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nombre usuario"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shaoe_border_edittext"/>
+
+    <EditText
+        android:id="@+id/id_telefonousuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shaoe_border_edittext"
+        android:hint="telefono usuario"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/id_emailusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email usuario"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shaoe_border_edittext"/>
+    <EditText
+        android:id="@+id/id_fechausuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="fecha usuario"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shaoe_border_edittext"/>
+    <EditText
+        android:id="@+id/id_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textMultiLine|textCapSentences"
+        android:gravity="top"
+        android:maxLines="40"
+        android:hint="descripcion usuario"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shaoe_border_edittext"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/id_buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|end"
+        android:src="@drawable/ic_register"/>
+
+
+
+</LinearLayout>
