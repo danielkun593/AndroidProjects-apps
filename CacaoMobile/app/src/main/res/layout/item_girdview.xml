@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/item_titulo_cacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de cacao"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/item_gd_cacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_titulo_cacao"
+        android:hint="Tipo de cacao"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/item_titulo_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_gd_cacao"
+        android:layout_marginTop="5dp"
+        android:text="Descripcion"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/item_gd_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/item_titulo_descripcion"
+        android:hint="descripcion del tratamiento"
+        android:maxLines="2"
+        android:textSize="14dp"
+        android:textStyle="normal"/>
+
+    <LinearLayout
+        android:id="@+id/id_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/item_gd_descripcion">
+        <TextView
+            android:id="@+id/item_gd_fecha"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="fecha de tratamiento"
+            android:textSize="10dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:id="@+id/item_gd_hora"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="fecha de tratamiento"
+            android:textSize="10dp"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+</RelativeLayout>
