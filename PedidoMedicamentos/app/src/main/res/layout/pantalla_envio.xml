@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".PantallaConfirmacionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pedido realizado a:"
+        android:textColor="@color/teal_700"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/id_pedidoRealizado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distribuidora"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Medicamento solicitado:"
+        android:textColor="@color/teal_700"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/id_mediSolicitado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distribuidora"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Direccion de envio:"
+        android:textColor="@color/teal_700"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/id_direccionEnvio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distribuidora"
+        android:textSize="18dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="right|bottom">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/id_enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/id_cancelar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancelar"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+    </LinearLayout>
+
+
+</LinearLayout>
