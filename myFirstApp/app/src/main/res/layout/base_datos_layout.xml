@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<EditText
+    android:layout_marginTop="10dp"
+    android:id="@+id/txt_codigo_base"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""/>
+
+    <EditText
+        android:id="@+id/txt_nombre_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+
+    <Button
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/Guardar_inicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boton Inicial"
+        />
+
+    <Button
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/Guardar_datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boton Guardar"
+        />
+
+
+    <Button
+
+    android:layout_marginTop="20dp"
+    android:id="@+id/actualizar_datos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Boton Actualizar"
+    />
+
+
+    <Button
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/consultar_datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boton Consultar"
+        />
+
+    <Button
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/eliminar_datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boton Eliminar"
+        />
+
+
+</LinearLayout>

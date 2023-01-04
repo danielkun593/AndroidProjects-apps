@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorApplica">#4B8E91</color>
+    <color name="colorBlanco">#F7FDFC</color>
+    <color name="color_turquesa">#16E1E9</color>
+
+    <color name="color_text_View">#691577</color>
+</resources>

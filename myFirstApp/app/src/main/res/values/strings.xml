@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">miprimerapps</string>
+    <string name="bienvenido">unHola Mundo</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="pais_ecuador">Ecuador</string>
+    <string name="pais_peru">Peru</string>
+    <string name="pais_colombia">Colombia</string>
+    <string name="bienvenida">Bienvenido a Notas</string>
+
+    <string name="volley">Volley</string>
+    <string name="futbol">Futbol</string>
+    <string name="Basket">Basket</string>
+    <string name="tennis">Tennis</string>
+
+    <string name="titulo_usuario">Usuario:</string>
+    <string name="tituloclave">Clave:</string>
+    <string name="Ingreso_usuario">Ingresar Usuario</string>
+    <string name="Ingreso_clave">Ingresar Clave</string>
+    <string name="boton_aceptar">Aceptar</string>
+    <string name="boton_cancelar">Cancelar</string>
+
+
+    <string-array name="Listas_Materias">
+        <item>Programacion 5</item>
+        <item>Sistema Operativo</item>
+        <item>Interaccion Hombre Maquina</item>
+        <item>Ingles Intermedio</item>
+    </string-array>
+
+    <string-array name="sede_universidad">
+        <item>Guayaquil</item>
+        <item>Milagro</item>
+        <item>El Triunfo</item>
+        <item>Naranjal</item>
+    </string-array>
+
+</resources>

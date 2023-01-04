@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/MnOpcion1" android:title="Opcion 1" android:icon="@drawable/profile_principal" ></item>
+    <item android:id="@+id/MnOpcion2" android:title="Opcion 2" android:icon="@drawable/profile_principal" ></item>
+    <item android:id="@+id/MnOpcion3" android:title="Opcion 3" android:icon="@drawable/profile_principal" >
+        <menu>
+            <item android:id="@+id/SubMenuOpcion3.1" android:title="Opcion 3.1" android:icon="@drawable/profile_principal"></item>
+            <item android:id="@+id/SubMenuOpcion3.2" android:title="Opcion 3.2" android:icon="@drawable/profile_principal">
+
+            </item>
+
+
+        </menu>
+    </item>
+
+</menu>
